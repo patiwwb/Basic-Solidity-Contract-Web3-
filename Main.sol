@@ -44,7 +44,7 @@ contract MyContract {
 
 
 
-contract MyContract {
+contract MyBankContract {
     mapping(address => uint) private balances;
 
     function deposit() external payable {
