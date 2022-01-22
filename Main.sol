@@ -1,13 +1,13 @@
 pragma solidity 0.8.10;
 
-/*
+
 contract MyContract {
     uint public x = 21;
 
     function setX(uint _x) public {
         x = _x;
     }
-    /*
+    
     uint8 
     uint16 
     uint256
@@ -37,12 +37,12 @@ contract MyContract {
     require(sent, "Error sending eth");
     }
 
-    */
+    
 
 }
-*/
 
-/*
+
+
 
 contract MyContract {
     mapping(address => uint) private balances;
@@ -64,4 +64,4 @@ contract MyContract {
     
     }
 
-*/
+
