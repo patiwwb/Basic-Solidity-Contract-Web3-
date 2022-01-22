@@ -25,7 +25,7 @@ contract MyContract {
     function receive() external payable {
         msg.value;
         msg.gas;
-        //lastSender = msg.sender
+        lastSender = msg.sender
     }
 
     function getBalance() public view returns (uint) {
